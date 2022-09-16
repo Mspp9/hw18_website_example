@@ -2,5 +2,23 @@
 
 *
 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+}
+
+body
+{
+  background: #111222;
+}
+
+section
+{
+ position: relative; 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 80px 100px;
+ color: aliceblue;
 }
