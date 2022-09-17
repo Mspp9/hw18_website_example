@@ -46,3 +46,11 @@ section
   justify-content: center;
   align-items: center;
 }
+
+.content .image
+{
+  position: relative;
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+}
