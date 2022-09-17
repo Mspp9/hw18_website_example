@@ -22,3 +22,12 @@ section
  padding: 80px 100px;
  color: aliceblue;
 }
+
+.container
+{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
