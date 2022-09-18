@@ -82,5 +82,16 @@ section
 {
   font-size: 2em;
   margin-bottom: 10px;
-  
+}
+
+.media-icons
+{
+  margin-top: 100px;
+}
+
+.media-icons a
+{
+  color: #fff;
+  font-size: 2em;
+  margin: 60px;
 }
