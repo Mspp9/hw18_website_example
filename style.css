@@ -131,3 +131,21 @@ margin-left: 50px;
   color: #fff;
   text-decoration: none;
 }
+
+.media-info li:not(:last-child)
+{
+  margin-bottom: 50px;
+}
+
+.media-info li:nth-child(1), .media-info li:nth-child(5) /*задействован 1 и 5 элемент из списка*/
+{
+padding-left: 100px;
+}
+
+.media-info li:nth-child(2),
+.media-info li:nth-child(4)
+
+/*задействован 2 и 4 элемент из списка*/
+  {
+  padding-left: 50px;
+}
