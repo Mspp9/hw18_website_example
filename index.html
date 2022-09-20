@@ -7,6 +7,7 @@
   <title>Web Site</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
   <section class="sec-01">
@@ -60,8 +61,22 @@
                 <li><a href="#"><i class="fab fa-youtube"></i>Youtube</a></li>
                 <li><a href="#"><i class="fab fa-linkedin"></i>Linkedin</a></li>
               </div>
+              <div class="image">
+                <img src="img/3.jpg" alt="">
+              </div>
             </div>
           </div>  
             </section>
+
+            <script>
+              ScrollReveal({ 
+                reset: true,
+                distance: '60px',
+                duration: 2500,
+                delay: 400
+              });
+
+              ScrollReveal().reveal('.main-title', { delay: 500 });
+            </script>
 </body>
 </html>
